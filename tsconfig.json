@@ -17,6 +17,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/ActiveLink/ActiveLink.tsx", "components/NavBar/NavBar.tsx", "pages/index.tsx", "pages/about.tsx", "pages/contact/index.tsx", "pages/_app.jsx"],
   "exclude": ["node_modules"]
 }

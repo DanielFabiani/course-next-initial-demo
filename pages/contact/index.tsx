@@ -1,11 +1,12 @@
-import { MainLayout } from "../components/layouts/MainLayout";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 
-export default function HomePage() {
+import { MainLayout } from "@/components/layouts/MainLayout";
+
+export default function ContactPage() {
   return (
     <MainLayout>
-      <h1>Home Page</h1>
+      <h1>Contact Page</h1>
 
       <div className={"description"}>
         <h2>
@@ -13,7 +14,7 @@ export default function HomePage() {
         </h2>
         <p>
           Get started by editing&nbsp;
-          <code className={"code"}>pages/home.tsx</code>
+          <code className={"code"}>pages/contact.tsx</code>
         </p>
       </div>
     </MainLayout>
